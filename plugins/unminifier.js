@@ -5,7 +5,7 @@ function run(code) {
         let inString = false;
         let quote = "";
 
-        const tabs = () => "    ".repeat(indent);
+        const tabs = () => "  ".repeat(indent);
 
         css = css.trim();
 
