@@ -24,7 +24,8 @@ function run(code) {
         .replaceAll('% ', '%')
         .replace(/ #/g, '#')
         .replace(/color:#/gi, 'color:')
-        .replace(/;$/, '');
+        .replace(/;$/, '')
+        .replace(/}$/, '');
 
     // =========== Advanced minifier
 
