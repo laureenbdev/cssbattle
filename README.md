@@ -16,3 +16,4 @@ The repository also contains the plugins I made and use.
     - replacing some words to shorter ones ("transparent" > "#0000")
     - replacing units to the shortest one for that value (20px > 5vw)
 - unminifier - add indentation to make the code more readable
+- clear - resets the code to `<style>&{background:`
